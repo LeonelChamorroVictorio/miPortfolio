@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html class="html" lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Condensed:ital,wght@0,800;1,800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,800;1,800&display=swap"
+        rel="stylesheet">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Leonel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="/public/img/foto perfil.jpg" alt="">
+            </div>
+            <h1> LEONEL CHAMORRO VICTORIO </h1>
+            <h2>Tecnico Superior Desarrollo de software - FrontEnd </h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/leonel-mauro-chamorro-victorio/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/LeonelChamorroVictorio"><i class="fa-brands fa-github"></i></a>
+                <a href="https://web.facebook.com/leitoo96/?locale=es_LA"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://Wa.me/+543412746704"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Leonel Chamorro Victorio.</span> mi trayectoria profesional es tan diversa como mi pasión
+                por el aprendizaje.
+                A lo largo de mi carrera, he explorado diferentes campos, desde ventas y talleres automotrices hasta el
+                detallado de vehículos.
+                Actualmente, estoy ampliando mis horizontes en el mundo del desarrollo de software, cursando la
+                Tecnicatura en Desarrollo de Software
+                en el Instituto Terciario Urquiza N°49 y complementando mi formación con cursos de desarrollo web en
+                Coderhouse, donde he adquirido habilidades en JavaScript y React.js.
+                Mi experiencia abarca tanto habilidades técnicas como interpersonales. Soy competente en la reparación
+                de hardware y software,
+                y me esfuerzo por mantener una ética de trabajo que se centra en las buenas prácticas y en un desarrollo
+                limpio y eficiente.
+                Mi enfoque en la responsabilidad y la mejora continua es el motor detrás de cada proyecto en el que me
+                involucro.
+                Aunque actualmente no estoy trabajando en un proyecto específico, estoy ansioso por asumir nuevos
+                desafíos y contribuir con mi experiencia y habilidades.
+                Mi filosofía de trabajo se basa en “no bajar los brazos e insistir hasta lograr tus metas”, una
+                mentalidad que me ha impulsado a alcanzar objetivos y superar obstáculos.
+                Mis colegas y clientes suelen describirme como una persona explosiva con metas fijas, alguien que se
+                destaca por su compromiso y dedicación.
+                En mi vida personal, me considero una persona humilde y buena, que disfruta de los videojuegos, del
+                tiempo con mi novia, y de los momentos divertidos con amigos.
+                Valoro la tranquilidad y prefiero evitar conflictos innecesarios, centrando mi energía en aspectos
+                positivos y constructivos.
+                Estoy emocionado por la oportunidad de trabajar en nuevos proyectos y aportar mi experiencia y
+                entusiasmo al mundo del desarrollo de software.
+                Si buscas un profesional comprometido, responsable y con una actitud positiva, estaré encantado de
+                conectar contigo y explorar cómo podemos colaborar.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-02-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54341 2746704
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            leonel.chamorro.victorio@outlook.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.ejemplo.com
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-square-steam"></i>
+                            <span>STEAM</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-burger"></i>
+                            <span>COMIDA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-video"></i>
+                            <span>STREAMING</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="/public/cv/CV Leonel Chamorro Victorio (sinFoto).pdf" download class="download-button">
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                </a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Hardware & Software</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum Vitae</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Desarrollo de software</h4>
+                        <span class="casa">Terciario Urquiza</span>
+                        <span class="fecha">2024 - Cursando</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est commodi cumque laudantium eaque dolorum delectus.
+                            Voluptas impedit alias, eos eius est consequuntur qui consequatur,
+                            aperiam facere at, asperiores odio quia.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo de software</h4>
+                        <span class="casa">Terciario Urquiza</span>
+                        <span class="fecha">2024 - Cursando</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est commodi cumque laudantium eaque dolorum delectus.
+                            Voluptas impedit alias, eos eius est consequuntur qui consequatur,
+                            aperiam facere at, asperiores odio quia.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo de software</h4>
+                        <span class="casa">Terciario Urquiza</span>
+                        <span class="fecha">2024 - Cursando</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est commodi cumque laudantium eaque dolorum delectus.
+                            Voluptas impedit alias, eos eius est consequuntur qui consequatur,
+                            aperiam facere at, asperiores odio quia.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est commodi cumque laudantium eaque dolorum delectus.
+                            Voluptas impedit alias, eos eius est consequuntur qui consequatur,
+                            aperiam facere at, asperiores odio quia.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est commodi cumque laudantium eaque dolorum delectus.
+                            Voluptas impedit alias, eos eius est consequuntur qui consequatur,
+                            aperiam facere at, asperiores odio quia.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre Compañía</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Est commodi cumque laudantium eaque dolorum delectus.
+                            Voluptas impedit alias, eos eius est consequuntur qui consequatur,
+                            aperiam facere at, asperiores odio quia.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/public/img/img-3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/public/img/img-3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/public/img/img-3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/public/img/img-3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/public/img/img-3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/public/img/img-3.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+            <div class="col">
+                     
+
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="email"
+                            placeholder="Tu correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea class="form-control" id="message" name="message" rows="5"
+                            placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Mapa -->
+            <div class="col">
+                <img src="/public/img/ubicacion.jpeg" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Rosario Santa Fé
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            Comunicate: +54-341-2746704
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: leonel.chamorro.victorio@outlook.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angle-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/leonel-mauro-chamorro-victorio/"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/LeonelChamorroVictorio"><i class="fa-brands fa-github"></i></a>
+            <a href="https://outlook.live.com/mail/0/leonel.chamorro.victorio@outlook.com"><i
+                    class="fa-solid fa-inbox"></i></a>
+            <a href="http://Wa.me/+543412746704"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="/public/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('RE0M_V2KONE9S8gEY');
+        })();
+
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            emailjs.sendForm('service_00s5d0a', 'template_szui93m', this)
+                .then(function () {
+                    alert('Mensaje enviado correctamente');
+                }, function (error) {
+                    alert('Error al enviar el mensaje: ' + JSON.stringify(error));
+                });
+        });
+    </script>
+</body>
+
+</html>
